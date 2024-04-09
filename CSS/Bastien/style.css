@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header {
+    background-color: black;
+    border-right: 2px solid black;
+    inline-size: 15%;
+}
+
+nav {
+    float: left;
+}
+
+nav h2 {
+    text-align: center;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    width: 80%;
+    list-style-type: none;
+    margin-top: 5px;
+    background-color: #DDDDDD;
+    border-style: outset;
+    text-align: center;
+}
+
+nav li:hover {
+    border-style: inset;
+    background-color: #CCCCCC;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    inline-size: 85%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+table {
+    width: 100%;
+}
+
+table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+aside {
+    text-align: right;
+}
+
+.musique img {
+    width: 100px;
+    height: 150px;
+}
+
+.personnage {
+    height: 250px;
+    float: right;
+}
+
+.materia li {
+    display: inline-block;
+}
+
+.materia {
+    text-align: center;
+}
+
+.sorts img {
+    width: 100px;
+    height: 100px;
+}
+
+.sorts {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sorts img, .sorts p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bannière{
+    height: 30%;
+    border: 1px solid black
+}
+
+.FFVII header {
+    background-image: url(../../Main/images/bannière_ff.jpg);
+    text-align: center;
+}
+
+.SERAPHINE header {
+    background-image: url(../../Main/images/bannière_séra.jpg);
+    float: left;
+}
+
+.SERAPHINE nav a {
+    display: block;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
